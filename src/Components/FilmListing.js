@@ -13,7 +13,7 @@ class filmListing extends React.Component {
              <div>
               <FilmPoster/>
               <h2> {film.title} </h2>
-              <p> {film.release_date} </p>
+              <p> {new Date(film.release_date).getFullYear()} </p>
              </div>
             )
           })}
