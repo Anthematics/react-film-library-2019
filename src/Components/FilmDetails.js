@@ -9,9 +9,10 @@ class FilmDetails extends React.Component {
           return (
             <div className="film-summary">
             <h1 className="section-title"> Details</h1>
-
               <h1>{film.title}</h1>
               <p>{film.overview}</p>
+
+
             </div>
           );
         })}
@@ -19,5 +20,7 @@ class FilmDetails extends React.Component {
     );
   }
 }
+
+
 
 export default FilmDetails;

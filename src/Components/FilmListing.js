@@ -2,7 +2,7 @@ import React from "react";
 import TMDB from '../TMDB.js'
 import FilmPoster from './FilmPoster.js'
 
-class filmListing extends React.Component {
+class FilmListing extends React.Component {
   render() {
     return (
       <div className="film-library">
@@ -24,7 +24,8 @@ class filmListing extends React.Component {
   }
 }
 
-export default filmListing
+
+export default FilmListing
 
 // "id": 343668,
 //         "title": "Kingsman: The Golden Circle",
